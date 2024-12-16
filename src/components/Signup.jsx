@@ -58,6 +58,7 @@ function signupAction(prevFormState, formData) {
 
   return { errors: null };
 }
+
 export default function Signup() {
   const [formState, formAction] = useActionState(signupAction, {
     errors: null,
